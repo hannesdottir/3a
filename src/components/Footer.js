@@ -69,36 +69,26 @@ export default function Footer() {
         <hr className="h-0 mt-8 bg-gray-500" />
         {isSecondOpen && (
           <div class="mt-2 py-2  w-full bg-violet-950 text-white rounded-lg shadow-xl">
-            <a href="#" class="block py-2  hover:text-rose-700">
+            <button class="block py-2  hover:text-rose-700">
               Webbyrå i Stockholm
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
+            </button>
+            <button class="block py-2  hover:text-rose-700">
               Om den digitala byrån
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
+            </button>
+            <button class="block py-2  hover:text-rose-700">
               Hur går det till?
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
+            </button>
+            <button class="block py-2  hover:text-rose-700">
               Webbyrå i Stockholm
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
+            </button>
+            <button class="block py-2  hover:text-rose-700">
               Utvalda projekt
-            </a>
-            <a href="#" class="block  py-2  hover:text-rose-700">
-              Kundcase
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
-              Nyheter
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
-              Karriär
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
-              Intranät
-            </a>
-            <a href="#" class="block py-2  hover:text-rose-700">
-              Kontakt
-            </a>
+            </button>
+            <button class="block  py-2  hover:text-rose-700">Kundcase</button>
+            <button class="block py-2  hover:text-rose-700">Nyheter</button>
+            <button class="block py-2  hover:text-rose-700">Karriär</button>
+            <button class="block py-2  hover:text-rose-700">Intranät</button>
+            <button class="block py-2  hover:text-rose-700">Kontakt</button>
           </div>
         )}
       </div>
